@@ -1,11 +1,13 @@
 const generatePlayerBoard = (numberOfRows, numberOfColumns) => {
   let board = [];
   for (var i = 0; i < numberOfRows; i++) {
-    row = [];
+    let row = [];
     for (var n = 0; n < numberOfColumns; n++) {
       row.push(' ');
     };
+    board.push(row);
   };
+  return board;
 };
 
 const printBoard = board => {
