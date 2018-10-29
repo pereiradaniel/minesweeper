@@ -31,3 +31,7 @@ board[0][1] = '1';
 board[2][2] = 'B';
 
 printBoard(board);
+
+console.log(generatePlayerBoard(3,3));
+console.log(generatePlayerBoard(6,6));
+console.log(generatePlayerBoard(4,5));
