@@ -11,6 +11,15 @@ const generatePlayerBoard = (numberOfRows, numberOfColumns) => {
 };
 
 const generateBombBoard = (numberOfRows, numberOfColumns, numberOfBombs) => {
+  let board = [];
+  for (var i = 0; i < numberOfRows; i++) {
+    let row = [];
+    for (var n = 0; n < numberOfColumns; n++) {
+      row.push(null);
+    };
+    board.push(row);
+  };
+  return board;
 };
 
 const printBoard = board => {
