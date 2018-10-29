@@ -1,4 +1,7 @@
-const generatePlayerBoard = (numberOfRows, numberOfColumns) => {};
+const generatePlayerBoard = (numberOfRows, numberOfColumns) => {
+  let board = [];
+  for (var i = 0; i < numberOfRows; i++) {};
+};
 
 const printBoard = board => {
   console.log(`Current Board: `);
